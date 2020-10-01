@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Endpoint Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Struct/Endpoint" class="dashAnchor"></a>
+
+    <a title="Endpoint Structure Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+         (95% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      Endpoint Structure Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/WebViewAuthenticator.html">WebViewAuthenticator</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/Recipient.html">Recipient</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/Recipient/Collection.html">– Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ResponseError.html">ResponseError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/UserAgent.html">UserAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/WebViewAuthenticatorError.html">WebViewAuthenticatorError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/HeaderComposable.html">HeaderComposable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/NSColor.html">NSColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/NSImage.html">NSImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Requestable.html">Requestable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Requester.html">Requester</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Sequence.html">Sequence</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/Authenticator.html">Authenticator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/PaginatedType.html">PaginatedType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ReflectedType.html">ReflectedType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ResponseType.html">ResponseType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Agnostic.html">Agnostic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Comment.html">Comment</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Comment/Collection.html">– Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Constants.html">Constants</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Conversation.html">Conversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Conversation/Unit.html">– Unit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Conversation/Collection.html">– Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Device.html">Device</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint.html">Endpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint/Direct.html">– Direct</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint/Discover.html">– Discover</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint/Friendship.html">– Friendship</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint/Highlights.html">– Highlights</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint/Location.html">– Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint/Media.html">– Media</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint/News.html">– News</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint/User.html">– User</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Friendship.html">Friendship</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Friendship/Dictionary.html">– Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Location.html">Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Location/Coordinates.html">– Coordinates</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Location/Unit.html">– Unit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Location/Collection.html">– Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Media.html">Media</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Media/Version.html">– Version</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Media/Picture.html">– Picture</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Media/Video.html">– Video</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Media/Content.html">– Content</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Media/Unit.html">– Unit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Media/Collection.html">– Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Pagination.html">Pagination</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Secret.html">Secret</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Status.html">Status</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Sticker.html">Sticker</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SupportedCapabilities.html">SupportedCapabilities</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TrayItem.html">TrayItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TrayItem/Unit.html">– Unit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TrayItem/Collection.html">– Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TrayItem/Dictionary.html">– Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/User/Access.html">– Access</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/User/Counter.html">– Counter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/User/Unit.html">– Unit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/User/Collection.html">– Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/UserTag.html">UserTag</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram17CommentCollectiona">CommentCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram22ConversationCollectiona">ConversationCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram16ConversationUnita">ConversationUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram20FriendshipCollectiona">FriendshipCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram18LocationCollectiona">LocationCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram12LocationUnita">LocationUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram15MediaCollectiona">MediaCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram9MediaUnita">MediaUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram19RecipientCollectiona">RecipientCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram6Threada">Thread</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram16ThreadCollectiona">ThreadCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram15ThreadRecipienta">ThreadRecipient</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram25ThreadRecipientCollectiona">ThreadRecipientCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram10ThreadUnita">ThreadUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram18TrayItemCollectiona">TrayItemCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram12TrayItemUnita">TrayItemUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram14UserCollectiona">UserCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram8UserUnita">UserUnit</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>Endpoint</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Endpoint</span></code></pre>
+
+                </div>
+              </div>
+            <p>A <code>struct</code> defining all possible <code>Endpoint</code>s.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Aliases"></a>
+                <a name="//apple_ref/swift/Section/Aliases" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Aliases"></a>
+                  <h3 class="section-name"><p>Aliases</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram8EndpointV9Paginateda"></a>
+                    <a name="//apple_ref/swift/Alias/Paginated" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram8EndpointV9Paginateda">Paginated</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An <code>Endpoint</code> allowing for a paginated request with a custom <code>Response</code> value.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Always reference this alias, to abstract away <code>ComposableRequest</code> implementation.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">Paginated</span><span class="o">&lt;</span><span class="kt">Response</span><span class="o">&gt;</span> <span class="o">=</span> <span class="kt">Locker</span><span class="o">&lt;</span><span class="kt">Fetcher</span><span class="o">&lt;</span><span class="kt">Request</span><span class="p">,</span> <span class="kt">Response</span><span class="o">&gt;.</span><span class="kt">Paginated</span><span class="p">,</span> <span class="kt"><a href="../Structs/Secret.html">Secret</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram8EndpointV10Disposablea"></a>
+                    <a name="//apple_ref/swift/Alias/Disposable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram8EndpointV10Disposablea">Disposable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An <code>Endpoint</code> allowing for a single request with a custom <code>Response</code> value.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Always reference this alias, to abstract away <code>ComposableRequest</code> implementation.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">Disposable</span><span class="o">&lt;</span><span class="kt">Response</span><span class="o">&gt;</span> <span class="o">=</span> <span class="kt">Locker</span><span class="o">&lt;</span><span class="kt">Fetcher</span><span class="o">&lt;</span><span class="kt">Request</span><span class="p">,</span> <span class="kt">Response</span><span class="o">&gt;.</span><span class="kt">Disposable</span><span class="p">,</span> <span class="kt"><a href="../Structs/Secret.html">Secret</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Composition"></a>
+                <a name="//apple_ref/swift/Section/Composition" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Composition"></a>
+                  <h3 class="section-name"><p>Composition</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram8EndpointV3api17ComposableRequest0E0VvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/api" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram8EndpointV3api17ComposableRequest0E0VvpZ">api</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An <code>Endpoint</code> pointing to <code>i.instagram.com</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">api</span><span class="p">:</span> <span class="kt">Request</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram8EndpointV8version117ComposableRequest0E0VvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/version1" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram8EndpointV8version117ComposableRequest0E0VvpZ">version1</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An <code>Endpoint</code> pointing to <code>api/v1</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">version1</span><span class="p">:</span> <span class="kt">Request</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram8EndpointV7generic17ComposableRequest0E0VvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/generic" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram8EndpointV7generic17ComposableRequest0E0VvpZ">generic</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An <code>Endpoint</code> pointing to the Instagram homepage.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">generic</span><span class="p">:</span> <span class="kt">Request</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram8EndpointV6DirectV"></a>
+                    <a name="//apple_ref/swift/Struct/Direct" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram8EndpointV6DirectV">Direct</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A <code>struct</code> holding reference to <code>direct_v2</code> <code><a href="../Structs/Endpoint.html">Endpoint</a></code>s. Requires authentication.</p>
+
+                        <a href="../Structs/Endpoint/Direct.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Direct</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram8EndpointV8DiscoverV"></a>
+                    <a name="//apple_ref/swift/Struct/Discover" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram8EndpointV8DiscoverV">Discover</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A <code>struct</code> holding reference to <code>discover</code> <code><a href="../Structs/Endpoint.html">Endpoint</a></code>s. Requires authentication.</p>
+
+                        <a href="../Structs/Endpoint/Discover.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Discover</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram8EndpointV10FriendshipV"></a>
+                    <a name="//apple_ref/swift/Struct/Friendship" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram8EndpointV10FriendshipV">Friendship</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A <code>struct</code> holding reference to <code>friendships</code> <code><a href="../Structs/Endpoint.html">Endpoint</a></code>s. Requires authentication.</p>
+
+                        <a href="../Structs/Endpoint/Friendship.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Friendship</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram8EndpointV10HighlightsV"></a>
+                    <a name="//apple_ref/swift/Struct/Highlights" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram8EndpointV10HighlightsV">Highlights</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A <code>struct</code> holding reference to <code>highlights</code> <code><a href="../Structs/Endpoint.html">Endpoint</a></code>s. Requires authentication.</p>
+
+                        <a href="../Structs/Endpoint/Highlights.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Highlights</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram8EndpointV8LocationV"></a>
+                    <a name="//apple_ref/swift/Struct/Location" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram8EndpointV8LocationV">Location</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A <code>struct</code> holding reference to <code>location</code> <code><a href="../Structs/Endpoint.html">Endpoint</a></code>s. Requires authentication.</p>
+
+                        <a href="../Structs/Endpoint/Location.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Location</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram8EndpointV5MediaV"></a>
+                    <a name="//apple_ref/swift/Struct/Media" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram8EndpointV5MediaV">Media</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A <code>struct</code> holding reference to <code>media</code> <code><a href="../Structs/Endpoint.html">Endpoint</a></code>s. Requires authentication.</p>
+
+                        <a href="../Structs/Endpoint/Media.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Media</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram8EndpointV4NewsV"></a>
+                    <a name="//apple_ref/swift/Struct/News" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram8EndpointV4NewsV">News</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A <code>struct</code> holding reference to <code>news</code> <code><a href="../Structs/Endpoint.html">Endpoint</a></code>s. Requires authentication.</p>
+
+                        <a href="../Structs/Endpoint/News.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">News</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram8EndpointV4UserV"></a>
+                    <a name="//apple_ref/swift/Struct/User" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram8EndpointV4UserV">User</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A <code>struct</code> holding reference to <code>users</code> <code><a href="../Structs/Endpoint.html">Endpoint</a></code>s. Requires authentication.</p>
+
+                        <a href="../Structs/Endpoint/User.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">User</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2020 <a class="link" href="" target="_blank" rel="external">Stefano Bertagno</a>. All rights reserved. (Last updated: 2020-10-01)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

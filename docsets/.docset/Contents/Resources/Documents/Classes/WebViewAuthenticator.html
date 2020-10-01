@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WebViewAuthenticator Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/WebViewAuthenticator" class="dashAnchor"></a>
+
+    <a title="WebViewAuthenticator Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+         (95% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      WebViewAuthenticator Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/WebViewAuthenticator.html">WebViewAuthenticator</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/Recipient.html">Recipient</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/Recipient/Collection.html">– Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ResponseError.html">ResponseError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/UserAgent.html">UserAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/WebViewAuthenticatorError.html">WebViewAuthenticatorError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/HeaderComposable.html">HeaderComposable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/NSColor.html">NSColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/NSImage.html">NSImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Requestable.html">Requestable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Requester.html">Requester</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Sequence.html">Sequence</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/Authenticator.html">Authenticator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/PaginatedType.html">PaginatedType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ReflectedType.html">ReflectedType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ResponseType.html">ResponseType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Agnostic.html">Agnostic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Comment.html">Comment</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Comment/Collection.html">– Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Constants.html">Constants</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Conversation.html">Conversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Conversation/Unit.html">– Unit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Conversation/Collection.html">– Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Device.html">Device</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint.html">Endpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint/Direct.html">– Direct</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint/Discover.html">– Discover</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint/Friendship.html">– Friendship</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint/Highlights.html">– Highlights</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint/Location.html">– Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint/Media.html">– Media</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint/News.html">– News</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Endpoint/User.html">– User</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Friendship.html">Friendship</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Friendship/Dictionary.html">– Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Location.html">Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Location/Coordinates.html">– Coordinates</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Location/Unit.html">– Unit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Location/Collection.html">– Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Media.html">Media</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Media/Version.html">– Version</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Media/Picture.html">– Picture</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Media/Video.html">– Video</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Media/Content.html">– Content</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Media/Unit.html">– Unit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Media/Collection.html">– Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Pagination.html">Pagination</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Secret.html">Secret</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Status.html">Status</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Sticker.html">Sticker</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SupportedCapabilities.html">SupportedCapabilities</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TrayItem.html">TrayItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TrayItem/Unit.html">– Unit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TrayItem/Collection.html">– Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TrayItem/Dictionary.html">– Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/User/Access.html">– Access</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/User/Counter.html">– Counter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/User/Unit.html">– Unit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/User/Collection.html">– Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/UserTag.html">UserTag</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram17CommentCollectiona">CommentCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram22ConversationCollectiona">ConversationCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram16ConversationUnita">ConversationUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram20FriendshipCollectiona">FriendshipCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram18LocationCollectiona">LocationCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram12LocationUnita">LocationUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram15MediaCollectiona">MediaCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram9MediaUnita">MediaUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram19RecipientCollectiona">RecipientCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram6Threada">Thread</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram16ThreadCollectiona">ThreadCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram15ThreadRecipienta">ThreadRecipient</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram25ThreadRecipientCollectiona">ThreadRecipientCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram10ThreadUnita">ThreadUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram18TrayItemCollectiona">TrayItemCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram12TrayItemUnita">TrayItemUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram14UserCollectiona">UserCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:10Swiftagram8UserUnita">UserUnit</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>WebViewAuthenticator</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">@available(iOS 11.0, OSX 10.13, macCatalyst 13.0, *)</span>
+<span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">WebViewAuthenticator</span><span class="o">&lt;</span><span class="kt">Storage</span><span class="o">&gt;</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/Authenticator.html">Authenticator</a></span> <span class="k">where</span> <span class="kt">Storage</span> <span class="p">:</span> <span class="kt">Storage</span><span class="p">,</span> <span class="kt">Storage</span><span class="o">.</span><span class="kt">Key</span> <span class="o">==</span> <span class="kt"><a href="../Structs/Secret.html">Secret</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>A <code>class</code> describing an <code><a href="../Protocols/Authenticator.html">Authenticator</a></code> relying on a <code>WKWebView</code> to fetch cookies.</p>
+<h2 id='usage' class='heading'>Usage</h2>
+<pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">LoginViewController</span><span class="p">:</span> <span class="kt">UIViewController</span> <span class="p">{</span>
+    <span class="c1">/// The web view.</span>
+    <span class="k">var</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">?</span> <span class="p">{</span>
+        <span class="k">didSet</span> <span class="p">{</span>
+            <span class="n">oldValue</span><span class="p">?</span><span class="o">.</span><span class="nf">removeFromSuperview</span><span class="p">()</span>  <span class="c1">// Just in case.</span>
+            <span class="k">guard</span> <span class="k">let</span> <span class="nv">webView</span> <span class="o">=</span> <span class="n">webView</span> <span class="k">else</span> <span class="p">{</span> <span class="k">return</span> <span class="p">}</span>
+            <span class="n">webView</span><span class="o">.</span><span class="n">frame</span> <span class="o">=</span> <span class="n">view</span><span class="o">.</span><span class="n">frame</span>       <span class="c1">// Fill the parent view.</span>
+            <span class="n">view</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="n">webView</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">viewDidLoad</span><span class="p">()</span>
+
+        <span class="c1">// Authenticate.</span>
+        <span class="kt">WebViewAuthenticator</span> <span class="p">{</span> <span class="k">self</span><span class="o">.</span><span class="n">webView</span> <span class="o">=</span> <span class="nv">$0</span> <span class="p">}</span>
+            <span class="o">.</span><span class="n">authenticate</span> <span class="p">{</span>
+                <span class="k">switch</span> <span class="nv">$0</span> <span class="p">{</span>
+                <span class="k">case</span> <span class="o">.</span><span class="nf">failure</span><span class="p">(</span><span class="k">let</span> <span class="nv">error</span><span class="p">):</span> <span class="nf">print</span><span class="p">(</span><span class="n">error</span><span class="o">.</span><span class="n">localizedDescription</span><span class="p">)</span>
+                <span class="k">case</span> <span class="o">.</span><span class="nv">success</span><span class="p">:</span> <span class="nf">print</span><span class="p">(</span><span class="s">"Logged in"</span><span class="p">)</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram20WebViewAuthenticatorC7storagexvp"></a>
+                    <a name="//apple_ref/swift/Property/storage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram20WebViewAuthenticatorC7storagexvp">storage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A <code>Storage</code> instance used to store <code><a href="../Structs/Secret.html">Secret</a></code>s.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">storage</span><span class="p">:</span> <span class="kt">Storage</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram20WebViewAuthenticatorC9userAgentAA04UserF0Ovp"></a>
+                    <a name="//apple_ref/swift/Property/userAgent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram20WebViewAuthenticatorC9userAgentAA04UserF0Ovp">userAgent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A <code><a href="../Enums/UserAgent.html">UserAgent</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">userAgent</span><span class="p">:</span> <span class="kt"><a href="../Enums/UserAgent.html">UserAgent</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Lifecycle"></a>
+                <a name="//apple_ref/swift/Section/Lifecycle" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Lifecycle"></a>
+                  <h3 class="section-name"><p>Lifecycle</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram20WebViewAuthenticatorC7storage03webC0ACyxGx_ySo05WKWebC0Cctcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(storage:webView:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram20WebViewAuthenticatorC7storage03webC0ACyxGx_ySo05WKWebC0Cctcfc">init(storage:<wbr>webView:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Init.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">storage</span><span class="p">:</span> <span class="kt">Storage</span><span class="p">,</span> <span class="nv">webView</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">WKWebView</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>storage</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A concrete <code>Storage</code> value.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>webView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A block outputing a configured <code>WKWebView</code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram20WebViewAuthenticatorC9userAgentyACyxGAA04UserF0OF"></a>
+                    <a name="//apple_ref/swift/Method/userAgent(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram20WebViewAuthenticatorC9userAgentyACyxGAA04UserF0OF">userAgent(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set a custom User Agent.</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    Custom User Agents are not guaranteed to work.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">userAgent</span><span class="p">(</span><span class="n">_</span> <span class="nv">userAgent</span><span class="p">:</span> <span class="kt"><a href="../Enums/UserAgent.html">UserAgent</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">WebViewAuthenticator</span><span class="o">&lt;</span><span class="kt">Storage</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userAgent</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A valid <code><a href="../Enums/UserAgent.html">UserAgent</a></code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>self</code>.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram20WebViewAuthenticatorC9userAgentyACyxGSSF"></a>
+                    <a name="//apple_ref/swift/Method/userAgent(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram20WebViewAuthenticatorC9userAgentyACyxGSSF">userAgent(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set a custom User Agent.</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    Custom User Agents are not guaranteed to work.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">userAgent</span><span class="p">(</span><span class="n">_</span> <span class="nv">userAgent</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">WebViewAuthenticator</span><span class="o">&lt;</span><span class="kt">Storage</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userAgent</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A <code>String</code> representing a valid User Agent.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>self</code>.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Authenticator"></a>
+                <a name="//apple_ref/swift/Section/Authenticator" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Authenticator"></a>
+                  <h3 class="section-name"><p>Authenticator</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram20WebViewAuthenticatorC12authenticateyyys6ResultOyAA6SecretVAA0bcD5ErrorOGcF"></a>
+                    <a name="//apple_ref/swift/Method/authenticate(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram20WebViewAuthenticatorC12authenticateyyys6ResultOyAA6SecretVAA0bcD5ErrorOGcF">authenticate(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Return a <code><a href="../Structs/Secret.html">Secret</a></code> and store it in <code><a href="../Classes/WebViewAuthenticator.html#/s:10Swiftagram20WebViewAuthenticatorC7storagexvp">storage</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">authenticate</span><span class="p">(</span><span class="n">_</span> <span class="nv">onChange</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Result</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/Secret.html">Secret</a></span><span class="p">,</span> <span class="kt"><a href="../Enums/WebViewAuthenticatorError.html">WebViewAuthenticatorError</a></span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>onChange</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A block providing a <code><a href="../Structs/Secret.html">Secret</a></code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Lifecycle2"></a>
+                <a name="//apple_ref/swift/Section/Lifecycle" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Lifecycle2"></a>
+                  <h3 class="section-name"><p>Lifecycle</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Swiftagram20WebViewAuthenticatorCAA17ComposableRequest16TransientStorageVyAA6SecretVGRszrlE03webC0ACyAIGySo05WKWebC0Cc_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(webView:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Swiftagram20WebViewAuthenticatorCAA17ComposableRequest16TransientStorageVyAA6SecretVGRszrlE03webC0ACyAIGySo05WKWebC0Cc_tcfc">init(webView:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Init.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">webView</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">WKWebView</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>webView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A block outputing a configured <code>WKWebView</code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2020 <a class="link" href="" target="_blank" rel="external">Stefano Bertagno</a>. All rights reserved. (Last updated: 2020-10-01)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

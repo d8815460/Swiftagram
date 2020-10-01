@@ -1,0 +1,138 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Authentication/Secret/Secret.swift",
+      "line": 12,
+      "symbol": "Secret",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 11,
+      "symbol": "Thread",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 14,
+      "symbol": "ThreadUnit",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 17,
+      "symbol": "ThreadCollection",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 20,
+      "symbol": "ThreadRecipient",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 23,
+      "symbol": "ThreadRecipientCollection",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 26,
+      "symbol": "CommentCollection",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 29,
+      "symbol": "ConversationUnit",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 32,
+      "symbol": "ConversationCollection",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 35,
+      "symbol": "FriendshipCollection",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 38,
+      "symbol": "LocationUnit",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 41,
+      "symbol": "LocationCollection",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 44,
+      "symbol": "MediaUnit",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 47,
+      "symbol": "MediaCollection",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 50,
+      "symbol": "RecipientCollection",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 53,
+      "symbol": "TrayItemUnit",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 56,
+      "symbol": "TrayItemCollection",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 59,
+      "symbol": "UserUnit",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Swiftagram/Swiftagram/Sources/Swiftagram/Extensions/Deprecations.swift",
+      "line": 62,
+      "symbol": "UserCollection",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/Swiftagram/Swiftagram"
+}
